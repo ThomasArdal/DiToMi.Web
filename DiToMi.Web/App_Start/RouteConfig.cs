@@ -13,11 +13,20 @@ namespace DiToMi.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
+            routes.MapRoute("forside", "", new {controller = "Home", action = "Index"});
+            routes.MapRoute("omos", "about", new {controller = "Home", action = "About"});
+            routes.MapRoute("produkter", "products", new {controller = "Home", action = "Products"});
+            routes.MapRoute("kurser", "training", new {controller = "Home", action = "Training"});
+            routes.MapRoute("tdd", "training/testdrivendevelopment", new {controller = "Home", action = "TestDrivenDevelopment"});
+            routes.MapRoute("elasticsearch", "training/elasticsearch", new {controller = "Home", action = "Elasticsearch"});
+            routes.MapRoute("konsulent", "consultants", new {controller = "Home", action = "Consultant"});
+            routes.MapRoute("kontakt", "contact", new {controller = "Home", action = "Contact"});
+
+            //routes.MapRoute(
+            //    name: "Default",
+            //    url: "{controller}/{action}/{id}",
+            //    defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            //);
         }
     }
 }

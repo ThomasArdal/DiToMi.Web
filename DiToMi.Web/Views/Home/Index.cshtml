@@ -1,56 +1,63 @@
 ﻿@{
-    Layout = null;
+    ViewBag.Title = "DiToMi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" media="screen" href="~/Content/bootstrap.min.css" />
-    <title>DiToMi</title>
-</head>
-<body>
-    <div class="container">
-
-        <!-- Main hero unit for a primary marketing message or call to action -->
-        <div class="row" style="text-align: center; margin-top: 50px;">
-            <img src="~/Content/images/ditomi.png" alt="DiToMi" />
-        </div>
-
-        <!-- Example row of columns -->
-        <div class="row" style="margin-top: 50px;">
-            <div class="col-xs-6 col-md-4 col-lg-4">
-                <h2>Websites</h2>
-                <p>
-                    <a href="https://elmah.io"><img src="~/Content/images/elmahio.png" title="elmah.io" alt="elmah.io"/></a>
-                </p>
-            </div>
-            <div class="col-xs-6 col-md-4 col-lg-4">
-                <h2>Consulting</h2>
-                <p>
-                    <a href="http://www.linkedin.com/in/thomasardal"><img src="~/Content/images/linkedin.jpg" title="LinkedIn" alt="LinkedIn" /></a>
-                </p>
-            </div>
-            <div class="col-xs-6 col-md-4 col-lg-4">
-                <h2>Contact</h2>
-                <p>
-                    DiToMi ApS<br />
-                    Jens Martin Knudsens vej 14<br />
-                    8670 Låsby<br />
-                    Denmark<br />
-                    Tlf: 28345269<br />
-                    Email: <a href="mailto:thomasardal@gmail.com">thomasardal@gmail.com</a>
-                </p>
+<br/><br/>
+<div class="row">
+    <img class="center-block" src="~/Content/images/logo_large.png" />
+</div>
+<br/><br/>
+<div class="row">
+    <div class="col-sm-3">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3>About Us</h3>
+                <p>Cloud logging for .NET web applications using ELMAH. Powerful search, Business rules, Visual Studio integration, API and much more.</p>
+                <p><a href="https://elmah.io/" class="btn btn-primary pull-right" role="button">More</a></p>
+                <div class="clearfix"></div>
             </div>
         </div>
-    
-    <hr/>
-
-        <footer>
-            <p>&copy; DiToMi 2010-@DateTime.Today.Year</p>
-        </footer>
-
-    </div> <!-- /container -->
-</body>
-</html>
+    </div>
+    <div class="col-sm-3">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3>Consultants</h3>
+                <p>Fully functional NuGet Server installed using a Wizard and hosted as a Windows Service. Host your own packages inside your company network.</p>
+                <p><a href="http://nugetserver.net/" class="btn btn-primary pull-right" role="button">More</a></p>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3>Training</h3>
+                <p>Fully functional NuGet Server installed using a Wizard and hosted as a Windows Service. Host your own packages inside your company network.</p>
+                <p><a href="http://nugetserver.net/" class="btn btn-primary pull-right" role="button">More</a></p>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3>Products</h3>
+                <p>Fully functional NuGet Server installed using a Wizard and hosted as a Windows Service. Host your own packages inside your company network.</p>
+                <p><a href="http://nugetserver.net/" class="btn btn-primary pull-right" role="button">More</a></p>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    @*<div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="~/Content/images/hippovalidator.png" alt="...">
+                <div class="caption">
+                    <h3>Hippo Validator</h3>
+                    <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem</p>
+                    <p><a href="#" class="btn btn-primary pull-right" role="button">Se mere</a></p>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>*@
+</div>

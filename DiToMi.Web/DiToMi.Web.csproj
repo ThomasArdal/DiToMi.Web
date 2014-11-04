@@ -128,8 +128,12 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\background.jpg" />
     <Content Include="Content\images\elmahio.png" />
     <Content Include="Content\images\linkedin.jpg" />
+    <Content Include="Content\images\logo_large.png" />
+    <Content Include="Content\images\logo_small.png" />
+    <Content Include="Content\images\nugetserver.png" />
     <Content Include="Content\images\startuphq.png" />
     <Content Include="Content\images\thomasardal.png" />
     <Content Include="Content\images\ginfinity.png" />
@@ -158,6 +162,7 @@
     <Content Include="Content\images\kmtjek.png" />
     <Content Include="Content\images\hippovalidator.png" />
     <Content Include="Content\images\myrating.png" />
+    <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -169,6 +174,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -178,6 +184,15 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Scripts\jquery-2.1.1.min.map" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Products.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Consultant.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Training.cshtml" />
+    <Content Include="Views\Home\TestDrivenDevelopment.cshtml" />
+    <Content Include="Views\Home\Elasticsearch.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

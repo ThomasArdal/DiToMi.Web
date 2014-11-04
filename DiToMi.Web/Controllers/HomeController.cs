@@ -8,13 +8,44 @@ namespace DiToMi.Web.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
-
         public ActionResult Index()
         {
             return View();
         }
 
+        public ActionResult About()
+        {
+            return View();
+        }
+
+        public ActionResult Consultant()
+        {
+            return View();
+        }
+
+        public ActionResult Products()
+        {
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
+        public ActionResult Training()
+        {
+            return View();
+        }
+
+        public ActionResult TestDrivenDevelopment()
+        {
+            return View();
+        }
+
+        public ActionResult Elasticsearch()
+        {
+            return View();
+        }
     }
 }
