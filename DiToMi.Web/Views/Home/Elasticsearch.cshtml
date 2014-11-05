@@ -1,11 +1,58 @@
 ﻿
 @{
-    ViewBag.Title = "Elasticsearch";
+    ViewBag.Title = "Kursus: Full text søgning med Elasticsearch og .NET";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div class="jumbotron">
-    <h1>Elasticsearch</h1>
-    <p>Skriv noget om TDD</p>
+    <h2>Full text søgning med Elasticsearch og .NET</h2>
+    <h3>Baggrund</h3>
+    <small>Søgning er en problemstilling som mange IT systemer berører på den ene eller anden måde. Relationelle databaser er desværre ikke altid gode nok til at understøtte avancerede søgning, hvorfor der skal andre midler i brug. Elasticsearch har vokset sig fra at være en tynd skald oven på Lucene til nu at tilbyde mange af de samme features som konkurrerende NoSQL databaser som MongoDB, CouchDB og RavenDB.</small>
+    <h3>Kursusbeskrivelse</h3>
+    <small>Kurset giver en god gennemgang af koncepterne og begreberne i Elasticsearch samt en række praktiske eksempler og øvelser i hvordan full text søgning implementeres i C# applikationer. Vi ser både på indeksering og søgning, men også på de værktøjer der findes til platformen. Sidst men ikke mindst undervises deltagerne i hvordan Elasticsearch hostes.</small>
+    <h3>Kursets mål</h3>
+    <ul>
+        <li>Full text søgning med Elasticsearch</li>
+        <li>Værktøjer og plugins</li>
+        <li>Best practices</li>
+        <li>Hosting af Elasticsearch</li>
+    </ul>
+    <h3>Dag 1:</h3>
+    <dl class="dl-horizontal">
+        <dt><span class="label label-default">Teori</span></dt>
+        <dd>Introduktion til Elasticsearch - hvad er det for en størrelse?</dd>
+        <dt><span class="label label-default">Teori</span></dt>
+        <dd>Installation og konfiguration - hvordan installeres det og hvad skal du være opmærksom på under konfigurationen?</dd>
+        <dt><span class="label label-info">Øvelse</span></dt>
+        <dd>Installation og konfiguration</dd>
+        <dt><span class="label label-default">Teori</span></dt>
+        <dd>Index, Type og Document - vi ser på de forskellige begreber i Elasticsearch.</dd>
+        <dt><span class="label label-default">Teori</span></dt>
+        <dd>Indeksering - vi indekserer vores første dokument og snakker herunder om blandt andet analyzers.</dd>
+        <dt><span class="label label-info">Øvelse</span></dt>
+        <dd>Deltagerne starter op på kursets gennemgående øvelse og indekserer det første dokument.</dd>
+    </dl>
+    <small>Afsluttende opsamling på oplevelserne i løbet af dagen, så næste dag evt. kan tilrettes hvis nogen har specielle ønsker.</small>
+    <h3>Dag 2:</h3>
+    <dl class="dl-horizontal">
+        <dt><span class="label label-default">Teori</span></dt>
+        <dd>Search API - vi fremsøger data fra gårsdagens index og snakker om Elasticsearch fantastiske søge API’er.</dd>
+        <dt><span class="label label-info">Øvelse</span></dt>
+        <dd>Kursets gennemgående øvelse fortsætter og vi leger med søge API’et.</dd>
+        <dt><span class="label label-default">Teori</span></dt>
+        <dd>Aggregations - hvorfor har vi brug for aggregations og hvordan fungerer de?</dd>
+        <dt><span class="label label-info">Øvelse</span></dt>
+        <dd>Deltagerne udvider søgningerne fra foregående øvelse til også at trække aggregerede data med ud.</dd>
+        <dt><span class="label label-default">Teori</span></dt>
+        <dd>Percolator - hvad er percolators og hvad kan vi bruge den til?</dd>
+        <dt><span class="label label-default">Teori</span></dt>
+        <dd>Sharding og replication - hvordan kan Elasticsearch skaleres ud over mange servere ved hjælp af sharding og replication?</dd>
+        <dt><span class="label label-default">Teori</span></dt>
+        <dd>Sikkerhed - Elasticsearch er da ikke sikkert, eller?</dd>
+        <dt><span class="label label-default">Teori</span></dt>
+        <dd>Tools og plugins - essentielle værktøjer og plugins til Elasticsearch gennemgås, herunder Kibana.</dd>
+    </dl><br/>
+    <small>Afsluttende opsamling på oplevelserne de to dage. Spørgsmål og svar på falderebet.</small><br/><br/>
+    <small><strong>Varighed:</strong> 2 dage, fra 9.00 til 16.00</small>
 </div>
 
