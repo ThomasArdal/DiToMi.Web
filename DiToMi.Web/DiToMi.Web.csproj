@@ -162,8 +162,9 @@
     <Content Include="Views\Home\Consultant.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Training.cshtml" />
-    <Content Include="Views\Home\TestDrivenDevelopment.cshtml" />
+    <Content Include="Views\Home\UnitTesting.cshtml" />
     <Content Include="Views\Home\Elasticsearch.cshtml" />
+    <Content Include="Views\Home\Logging.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

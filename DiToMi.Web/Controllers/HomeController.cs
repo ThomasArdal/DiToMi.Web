@@ -38,7 +38,12 @@ namespace DiToMi.Web.Controllers
             return View();
         }
 
-        public ActionResult TestDrivenDevelopment()
+        public ActionResult UnitTesting()
+        {
+            return View();
+        }
+
+        public ActionResult Logging()
         {
             return View();
         }

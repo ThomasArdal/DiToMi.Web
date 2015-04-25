@@ -40,8 +40,26 @@
                 <ul class="nav navbar-nav">
                     <li><a href="/about">About</a></li>
                     <li><a href="/consultants">Consultants</a></li>
-                    <li><a href="/training">Training</a></li>
-                    <li><a href="/products">Products</a></li>
+                    <li class="dropdown">
+                        <a href="/training" class="dropdown-toggle" data-toggle="dropdown">Training <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/training">Overview</a></li>
+                            <li class="divider"></li>
+                            <li><a href="/training/elasticsearch">Elasticsearch</a></li>
+                            <li><a href="/training/unittesting">Unit Testing</a></li>
+                            <li><a href="/training/logging">Logging</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="/products" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/products">Overview</a></li>
+                            <li class="divider"></li>
+                            <li><a href="https://elmah.io">elmah.io</a></li>
+                            <li><a href="http://nugetserver.net">NuGet Server</a></li>
+                            <li><a href="http://gibbon.io">gibbon.io</a></li>
+                        </ul>
+                    </li>
                     <li><a href="http://thomasardal.com/">Blog</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
