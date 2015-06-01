@@ -165,6 +165,7 @@
     <Content Include="Views\Home\UnitTesting.cshtml" />
     <Content Include="Views\Home\Elasticsearch.cshtml" />
     <Content Include="Views\Home\Logging.cshtml" />
+    <Content Include="Views\Home\ElasticsearchAbout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
