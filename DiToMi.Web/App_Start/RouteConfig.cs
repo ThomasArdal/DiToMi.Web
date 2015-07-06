@@ -20,6 +20,7 @@ namespace DiToMi.Web
             routes.MapRoute("unittest", "training/unittesting", new {controller = "Home", action = "UnitTesting"});
             routes.MapRoute("trainingelasticsearch", "training/elasticsearch", new {controller = "Home", action = "Elasticsearch"});
             routes.MapRoute("elasticsearch", "elasticsearch", new {controller = "Home", action = "ElasticsearchAbout"});
+            routes.MapRoute("dotnetandcsharp", "dotnetandcsharp", new { controller = "Home", action = "DotNetAndCSharp" });
             routes.MapRoute("logging", "training/logging", new {controller = "Home", action = "Logging"});
             routes.MapRoute("konsulent", "consultants", new {controller = "Home", action = "Consultant"});
             routes.MapRoute("kontakt", "contact", new {controller = "Home", action = "Contact"});

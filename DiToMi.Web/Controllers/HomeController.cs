@@ -57,5 +57,10 @@ namespace DiToMi.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult DotNetAndCSharp()
+        {
+            return View();
+        }
     }
 }

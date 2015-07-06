@@ -166,6 +166,8 @@
     <Content Include="Views\Home\Elasticsearch.cshtml" />
     <Content Include="Views\Home\Logging.cshtml" />
     <Content Include="Views\Home\ElasticsearchAbout.cshtml" />
+    <None Include="Views\Home\DotNetAndCSharp.cshtml" />
+    <Content Include="Views\Shared\_CoreCompetences.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
