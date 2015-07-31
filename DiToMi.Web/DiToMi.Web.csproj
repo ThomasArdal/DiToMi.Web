@@ -131,10 +131,13 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\images\background.jpg" />
+    <Content Include="Content\images\BizSpark_logo.png" />
     <Content Include="Content\images\elmahio.png" />
     <Content Include="Content\images\gibbon.png" />
+    <Content Include="Content\images\logo-vsip.png" />
     <Content Include="Content\images\logo_large.png" />
     <Content Include="Content\images\logo_small.png" />
+    <Content Include="Content\images\Microsoft_Certified_Professional.png" />
     <Content Include="Content\images\nugetserver.png" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
