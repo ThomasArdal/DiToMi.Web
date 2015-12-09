@@ -4,9 +4,28 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" media="screen" href="~/Content/bootstrap.css" />
-    <link rel="stylesheet" media="screen" href="~/Content/Site.css"/>
-    <link rel="stylesheet" media="screen" href="~/Content/font-awesome.min.css"/>
+    <link rel="stylesheet" media="screen" href="~/Content/Site.css" />
+    <link rel="stylesheet" media="screen" href="~/Content/font-awesome.min.css" />
     <title>@ViewBag.Title</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#38A7B2">
+    <meta name="msapplication-TileColor" content="#38a7b2">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#38a7b2">
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -71,12 +90,11 @@
     <div class="container">
         @RenderBody()
     </div> <!-- /container -->
-    
     @*<div class="footer">
-        <div class="container">
-            <p class="text-muted">&copy; DiToMi 2010-@DateTime.Today.Year</p>
-        </div>
-    </div>*@
+            <div class="container">
+                <p class="text-muted">&copy; DiToMi 2010-@DateTime.Today.Year</p>
+            </div>
+        </div>*@
     <script src="~/Scripts/jquery-2.1.1.min.js"></script>
     <script src="~/Scripts/bootstrap.js"></script>
 </body>

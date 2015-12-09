@@ -15,6 +15,7 @@ namespace DiToMi.Web
 
             routes.MapRoute("forside", "", new {controller = "Home", action = "Index"});
             routes.MapRoute("omos", "about", new {controller = "Home", action = "About"});
+            routes.MapRoute("kontakt", "contact", new {controller = "Home", action = "Contact"});
             routes.MapRoute("produkter", "products", new {controller = "Home", action = "Products"});
             routes.MapRoute("kurser", "training", new {controller = "Home", action = "Training"});
             routes.MapRoute("unittest", "training/unittesting", new {controller = "Home", action = "UnitTesting"});
@@ -23,7 +24,9 @@ namespace DiToMi.Web
             routes.MapRoute("dotnetandcsharp", "dotnetandcsharp", new { controller = "Home", action = "DotNetAndCSharp" });
             routes.MapRoute("logging", "training/logging", new {controller = "Home", action = "Logging"});
             routes.MapRoute("konsulent", "consultants", new {controller = "Home", action = "Consultant"});
-            routes.MapRoute("kontakt", "contact", new {controller = "Home", action = "Contact"});
+            routes.MapRoute("webdevelopment", "webdevelopment", new {controller = "Home", action = "WebDevelopment"});
+            routes.MapRoute("architecture", "architecture", new {controller = "Home", action = "Architecture"});
+            routes.MapRoute("agile", "agile", new {controller = "Home", action = "Agile"});
 
             //routes.MapRoute(
             //    name: "Default",

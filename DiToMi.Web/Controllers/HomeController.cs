@@ -62,5 +62,20 @@ namespace DiToMi.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult Architecture()
+        {
+            return View();
+        }
+
+        public ActionResult Agile()
+        {
+            return View();
+        }
+
+        public ActionResult WebDevelopment()
+        {
+            return View();
+        }
     }
 }

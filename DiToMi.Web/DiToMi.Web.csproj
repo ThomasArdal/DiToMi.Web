@@ -124,6 +124,60 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="android-chrome-144x144.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="android-chrome-192x192.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="android-chrome-36x36.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="android-chrome-48x48.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="android-chrome-72x72.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="android-chrome-96x96.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="apple-touch-icon-114x114.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="apple-touch-icon-120x120.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="apple-touch-icon-144x144.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="apple-touch-icon-152x152.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="apple-touch-icon-180x180.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="apple-touch-icon-57x57.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="apple-touch-icon-60x60.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="apple-touch-icon-72x72.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="apple-touch-icon-76x76.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="apple-touch-icon-precomposed.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="apple-touch-icon.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="browserconfig.xml">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -138,8 +192,22 @@
     <Content Include="Content\images\logo_large.png" />
     <Content Include="Content\images\logo_small.png" />
     <Content Include="Content\images\Microsoft_Certified_Professional.png" />
+    <Content Include="Content\images\mvp_logo.png" />
     <Content Include="Content\images\nugetserver.png" />
     <Content Include="Content\Site.css" />
+    <Content Include="favicon-16x16.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="favicon-194x194.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="favicon-32x32.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="favicon-96x96.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -150,8 +218,29 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="manifest.json">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
     <None Include="Properties\PublishProfiles\File.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="mstile-144x144.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="mstile-150x150.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="mstile-310x150.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="mstile-310x310.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="mstile-70x70.png">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
+    <Content Include="safari-pinned-tab.svg">
+      <DependentUpon>favicon.ico</DependentUpon>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
@@ -178,6 +267,9 @@
     <Content Include="Views\Home\ElasticsearchAbout.cshtml" />
     <Content Include="Views\Home\DotNetAndCSharp.cshtml" />
     <Content Include="Views\Shared\_CoreCompetences.cshtml" />
+    <Content Include="Views\Home\WebDevelopment.cshtml" />
+    <Content Include="Views\Home\Architecture.cshtml" />
+    <Content Include="Views\Home\Agile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
