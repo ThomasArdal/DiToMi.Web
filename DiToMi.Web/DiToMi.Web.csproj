@@ -193,7 +193,6 @@
     <Content Include="Content\images\logo_small.png" />
     <Content Include="Content\images\Microsoft_Certified_Professional.png" />
     <Content Include="Content\images\mvp_logo.png" />
-    <Content Include="Content\images\nugetserver.png" />
     <Content Include="Content\images\Thomas-Ardal.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="favicon-16x16.png">
