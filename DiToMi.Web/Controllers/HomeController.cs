@@ -25,7 +25,7 @@ namespace DiToMi.Web.Controllers
 
         public ActionResult Products()
         {
-            return View();
+            return Redirect("/");
         }
 
         public ActionResult Contact()
