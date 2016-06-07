@@ -79,12 +79,20 @@
 
     <div class="container">
         @RenderBody()
-    </div> <!-- /container -->
-    @*<div class="footer">
-            <div class="container">
-                <p class="text-muted">&copy; DiToMi 2010-@DateTime.Today.Year</p>
+</div> <!-- /container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+                <span class="label label-info">&copy; DiToMi ApS 2010-@DateTime.Today.Year</span>
             </div>
-        </div>*@
+            <div class="col-xs-6">
+                <img src="~/Content/images/logo-vsip.png" class="pull-right" style="margin-top: 7px; margin-left: 5px;" />
+                <img src="~/Content/images/Microsoft_Certified_Professional.png" class="pull-right" style="margin-top: 7px; margin-left: 5px;" />
+                <img src="~/Content/images/BizSpark_logo.png" class="pull-right" style="margin-top: 7px; margin-left: 5px;" />
+                <img src="~/Content/images/mvp_logo.png" class="pull-right" style="margin-top: 7px; margin-left: 5px;"/>
+            </div>
+        </div>
+    </div>
     <script src="~/Scripts/jquery-2.1.1.min.js"></script>
     <script src="~/Scripts/bootstrap.js"></script>
 </body>
