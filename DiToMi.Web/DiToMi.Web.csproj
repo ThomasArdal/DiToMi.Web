@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -195,6 +196,7 @@
     <Content Include="Content\images\Microsoft_Certified_Professional.png" />
     <Content Include="Content\images\mvp_logo.png" />
     <Content Include="Content\images\nltwicelogo.png" />
+    <Content Include="Content\images\praxis.png" />
     <Content Include="Content\images\Thomas-Ardal.jpg" />
     <Content Include="Content\images\tradono.png" />
     <Content Include="Content\images\xena.jpg" />
