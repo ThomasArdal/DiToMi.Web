@@ -77,5 +77,10 @@ namespace DiToMi.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult Azure()
+        {
+            return View();
+        }
     }
 }

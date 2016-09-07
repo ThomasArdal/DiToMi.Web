@@ -27,6 +27,7 @@ namespace DiToMi.Web
             routes.MapRoute("webdevelopment", "webdevelopment", new {controller = "Home", action = "WebDevelopment"});
             routes.MapRoute("architecture", "architecture", new {controller = "Home", action = "Architecture"});
             routes.MapRoute("agile", "agile", new {controller = "Home", action = "Agile"});
+            routes.MapRoute("microsoftazure", "microsoftazure", new {controller = "Home", action = "Azure"});
 
             //routes.MapRoute(
             //    name: "Default",
