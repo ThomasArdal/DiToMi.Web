@@ -188,6 +188,7 @@
     <Content Include="Content\images\background.jpg" />
     <Content Include="Content\images\BizSpark_logo.png" />
     <Content Include="Content\images\dongenergy-logo.png" />
+    <Content Include="Content\images\elitemedia.png" />
     <Content Include="Content\images\elmahio.png" />
     <Content Include="Content\images\gibbon.png" />
     <Content Include="Content\images\logo-vsip.png" />
