@@ -200,8 +200,10 @@
     <Content Include="Content\images\nltwicelogo.png" />
     <Content Include="Content\images\novasoft.png" />
     <Content Include="Content\images\praxis.png" />
+    <Content Include="Content\images\priceshare.png" />
     <Content Include="Content\images\Thomas-Ardal.jpg" />
     <Content Include="Content\images\tradono.png" />
+    <Content Include="Content\images\trifork.png" />
     <Content Include="Content\images\xena.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="favicon-16x16.png">
