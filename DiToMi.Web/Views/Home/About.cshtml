@@ -1,6 +1,6 @@
 ﻿@{
-    ViewBag.Title = "About - 15 years of professional software experience | DiToMi";
-    ViewBag.Description = "We have more than 15 years of professional software experience. Through multiple jobs and customers, we master a large range of competences.";
+    ViewBag.Title = "About - "+(int)Math.Floor((DateTime.Now - new DateTime(2001, 12, 1)).TotalDays/365)+" years of professional software experience | DiToMi";
+    ViewBag.Description = "We have more than "+(int)Math.Floor((DateTime.Now - new DateTime(2001, 12, 1)).TotalDays/365)+" years of professional software experience. Through multiple jobs and customers, we master a large range of competences.";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -15,21 +15,25 @@
             </p>
             <p>Our love for developing software, makes us a great choice for developing great quality software and world class training.</p>
             <p>
-                Customers:<br/>
+                Customers:<br />
                 <div class="row text-center">
-                    <div class="col-sm-4"><img src="~/Content/images/dongenergy-logo.png" alt="DONG Energy" title="DONG Energy" /></div>
-                    <div class="col-sm-4"><img src="~/Content/images/tradono.png" alt="Tradono" title="Tradono" /></div>
-                    <div class="col-sm-4"><img src="~/Content/images/mjolner.png" alt="Praxis" title="Mjølner" /></div>
-                </div>
-                <br/>
-                <div class="row text-center">
+                    <div class="col-sm-5"><img src="~/Content/images/Orsted_RGB_Blue.png" alt="Ørsted" title="Ørsted" /></div>
                     <div class="col-sm-7"><img src="~/Content/images/trifork.png" alt="Trifork" title="Trifork" /></div>
+                </div>
+                <br />
+                <div class="row text-center">
+                    <div class="col-sm-5"><img src="~/Content/images/tradono.png" alt="Tradono" title="Tradono" /></div>
+                    <div class="col-sm-5"><img src="~/Content/images/mjolner.png" alt="Praxis" title="Mjølner" /></div>
+                    <div class="col-sm-2"><img src="~/Content/images/praxis.png" alt="Praxis" title="Praxis" /></div>
+                </div>
+                <br />
+                <div class="row text-center">
+                    <div class="col-sm-7"><img src="~/Content/images/Magnus-Kjoeller-Holding-Logo.png" alt="Magnus Kjøller Holding" title="Magnus Kjøller Holding" /></div>
                     <div class="col-sm-5"><img src="~/Content/images/priceshare.png" alt="PriceShare" title="PriceShare" /></div>
                 </div>
                 <br />
                 <div class="row text-center">
-                    <div class="col-sm-2 col-sm-offset-1"><img src="~/Content/images/praxis.png" alt="Praxis" title="Praxis" /></div>
-                    <div class="col-sm-2"><img src="~/Content/images/xena.jpg" alt="Xena" title="Xena" /></div>
+                    <div class="col-sm-2 col-sm-offset-2"><img src="~/Content/images/xena.jpg" alt="Xena" title="Xena" /></div>
                     <div class="col-sm-2"><img src="~/Content/images/nltwicelogo.png" alt="NLTwice" title="NLTwice" /></div>
                     <div class="col-sm-2"><img src="~/Content/images/elitemedia.png" alt="Elitemedia" title="Elitemedia" /></div>
                     <div class="col-sm-2"><img src="~/Content/images/novasoft.png" alt="Novasoft" title="Novasoft" /></div>

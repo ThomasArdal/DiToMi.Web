@@ -22,6 +22,7 @@
     <IISExpressUseClassicPipelineMode />
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -194,11 +195,13 @@
     <Content Include="Content\images\logo-vsip.png" />
     <Content Include="Content\images\logo_large.png" />
     <Content Include="Content\images\logo_small.png" />
+    <Content Include="Content\images\Magnus-Kjoeller-Holding-Logo.png" />
     <Content Include="Content\images\Microsoft_Certified_Professional.png" />
     <Content Include="Content\images\mjolner.png" />
     <Content Include="Content\images\mvp_logo.png" />
     <Content Include="Content\images\nltwicelogo.png" />
     <Content Include="Content\images\novasoft.png" />
+    <Content Include="Content\images\Orsted_RGB_Blue.png" />
     <Content Include="Content\images\praxis.png" />
     <Content Include="Content\images\priceshare.png" />
     <Content Include="Content\images\Thomas-Ardal.jpg" />
