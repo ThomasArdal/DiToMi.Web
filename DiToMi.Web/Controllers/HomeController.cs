@@ -35,22 +35,22 @@ namespace DiToMi.Web.Controllers
 
         public ActionResult Training()
         {
-            return View();
+            return RedirectPermanent("https://triforkacademy.dk/?ref=ditomi.dk");
         }
 
         public ActionResult UnitTesting()
         {
-            return View();
+            return RedirectPermanent("https://triforkacademy.dk/?ref=ditomi.dk");
         }
 
         public ActionResult Logging()
         {
-            return View();
+            return RedirectPermanent("https://triforkacademy.dk/?ref=ditomi.dk");
         }
 
         public ActionResult Elasticsearch()
         {
-            return View();
+            return RedirectPermanent("https://triforkacademy.dk/?ref=ditomi.dk");
         }
 
         public ActionResult ElasticsearchAbout()
